@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tahuna-panaderia.a01771796.workers.dev/sitemap.xml
