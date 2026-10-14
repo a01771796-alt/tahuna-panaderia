@@ -612,3 +612,10 @@ section { padding: var(--space-xl) 0; }
   .brand span { display: none; }
   h2 { font-size: 1.6rem; }
 }
+
+/* Crédito de Nucleo: obligatorio en todo sitio (demo o vendido); solo se quita si Luis lo indica para ese cliente. */
+.footer-credito { font-size: 0.8rem; margin-top: 0.5rem; }
+.footer-credito a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.footer-credito a:hover { opacity: 0.8; }
+.footer-bottom .footer-credito { margin: 0; }
+.footer-credito a { color: #b0a288; } /* más claro que el © del pie: pasa contraste AA */
